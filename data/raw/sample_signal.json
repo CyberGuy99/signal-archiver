@@ -1,0 +1,7 @@
+{
+  "messages": [
+    {"timestamp": 1704412800, "sender": "Alice", "text": "Hello"},
+    {"timestamp": 1704499200, "sender": "Bob", "text": "Hi"},
+    {"timestamp": 1707177600, "sender": "Alice", "text": "How are you?"}
+  ]
+}
