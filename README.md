@@ -80,3 +80,10 @@ The demo creates sample raw data, archives it, lists chunks, views one chunk, an
 ```bash
 python -m unittest discover -s tests -p "test_*.py" -v
 ```
+
+## V2 iOS Planning Artifacts
+
+- Milestone issue backlog: `docs/v2_ios_github_issues.md`
+- Xcode handoff/demo runbook: `docs/v2_ios_handoff_demo.md`
+
+These documents map the storage-layer iOS integration plan from `co_ins_2.md` into actionable implementation and demo steps.

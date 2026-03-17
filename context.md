@@ -38,6 +38,8 @@ Prototype local Signal chat archiving with chunking, compression, encryption, an
 - Install/update dependencies from requirements.txt.
 - Run a real export through `compress`, then verify `view` and `stats`.
 - Optionally add tests for parser/chunker and wrong-password handling.
+- Use `docs/v2_ios_github_issues.md` to create milestone issues in GitHub.
+- Use `docs/v2_ios_handoff_demo.md` for Xcode-owner demo execution.
 
 ## Validation Snapshot (2026-03-17)
 - Smoke test completed using `data/raw/sample_signal.json`.
@@ -53,3 +55,7 @@ Prototype local Signal chat archiving with chunking, compression, encryption, an
 - Demo script: `demo_run.py`
 - Run demo: `./.venv/bin/python demo_run.py --password demo-pass`
 - Demo generates `data/raw/demo_signal.json`, compresses it, lists archives, shows first chunk, and prints stats.
+
+## V2 iOS Planning Outputs (Branch: v2_ios)
+- `docs/v2_ios_github_issues.md`: milestone-organized issue set with acceptance criteria, dependencies, and labels.
+- `docs/v2_ios_handoff_demo.md`: end-to-end handoff and demonstration runbook for iOS/Xcode execution.
